@@ -2,7 +2,7 @@
 # Install Java 21 on Debian-based systems
 # Usage: ./jenkinsslave.sh 
 sudo apt update
-sudo apt install fontconfig openjdk-21-jre
+sudo apt install fontconfig openjdk-21-jre -y
 java -version
 openjdk version "21.0.3" 2024-04-16
 OpenJDK Runtime Environment (build 21.0.3+11-Debian-2)
